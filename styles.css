@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+header {
+  background-color: black;
+}
+
+#about {
+    background-color: #d4edf4; 
+    padding: 80px 0; /* Adjust padding as needed */
+}
+
+.about-introduction h2 {
+    font-size: 2.5rem; /* Larger heading size */
+    color: #343a40; /* Dark text color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.about-introduction p {
+    font-size: 1.1rem; /* Text size */
+    line-height: 1.8; /* Line spacing */
+}
+
+.about-image img {
+  border-radius: 90%; /* Rounded image */
+  box-shadow: 0 8px 16px rgba(26, 47, 199, 0.2); /* Increased shadow effect */
+  max-width: 100%; /* Ensure image fits container */
+}
+
+/* Optional: Customize animation duration and delay */
+.animate__animated {
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+}
+
+
+/* Education Section */
+#education {
+  padding: 50px 0;
+}
+
+#education .card {
+  border: none;
+  background: #d4edf4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#education .card-title {
+  font-size: 1.25rem;
+  color: black;
+}
+
+#education .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px 0;
+}
+
+#projects .card {
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#projects .card-title {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+#projects .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+/* Style for certifications section */
+#certifications {
+  background-color: #d4edf4; /* Light background */
+  padding: 1rem 0;
+}
+
+#certifications h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#certifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#certifications ul li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certifications ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+}
+
+#contact ul {
+  padding: 0;
+}
+
+#contact ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#contact ul li a {
+  color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #090909;
+  color: #fff;
+  padding: 20px 0;
+}
